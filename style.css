@@ -1,0 +1,155 @@
+a:link 
+{ 
+    text-decoration:none; 
+} 
+
+body{
+    font-family:"Segoe UI";
+    font-size:14px;
+    margin:10;
+}
+
+.board-header{
+    display: flex;
+    flex-shrink: 0;  
+    border-bottom: 0.3px solid #00f;  
+}
+
+.logo{
+    width: 20%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#logo-link {
+    display: flex;
+}
+
+#logo-img{
+    display: flex;
+    height: 22px;
+}
+
+#logo-texto{
+    display: flex;
+    margin-left:5px;
+    height: 22px;
+}
+
+.link{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.link > a {
+    margin: 0px 8px;
+}
+
+.options{
+    width: 60%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.elementos{
+    display: inline-block;    
+}
+
+.elementos > img {
+    opacity: 0.75;
+    width: 48px;
+    height: 48px;
+}
+
+#search{
+    width: 200px;
+}
+
+.elementos > img:hover {
+    opacity: 1;
+}
+
+.entrada{
+    width: 100px;
+    height: 25px;
+}
+
+.board-info{
+    display: flex;
+    height: 50px;
+    border-bottom: 0.3px solid #00f;  
+
+}
+
+.team{    
+    width: 20%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.team-name span{
+    font-family:"Segoe UI";
+    font-size:18px;
+}
+
+.team .elementos{
+    opacity: 0.75;
+    margin: 0px 3px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.team > .elementos img{
+    width: 35px;
+    height: 35px;
+}
+
+.dates{
+    margin: 0px 10px;
+    width: 80%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    font-size:18px;
+    text-align: right;
+    line-height: 15px;    
+}
+
+.board-controls{
+
+    display: flex;
+
+}
+
+
+.lists-container{
+    border-style: solid;
+    border-color: #00f;
+    display: flex;
+}
+
+.listNow{
+    border-style: solid;
+    border-color: #00f;
+}
+
+.listActive{
+    border-style: solid;
+    border-color: #00f;
+}
+
+.listClosed{
+    border-style: solid;
+    border-color: #00f;
+}
+
+
+
+
+
