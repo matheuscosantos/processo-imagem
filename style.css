@@ -122,31 +122,53 @@ body{
 }
 
 .board-controls{
-
     display: flex;
+    height: 35px;
+}
+
+.board-controls .links{
+    word-spacing: 8px;
+    font-style: bold;
+    display: flex;
+    align-items: center;
+}
+
+.board-controls .links > a{
+    padding: 0px 8px;
+}
+
+.board-controls .new-work{
+    display: flex;
+    align-items: center;
+    border-left: 0.3px solid #00f; 
+    padding: 0px 8px;
 
 }
 
+.board-controls .functions{
+    width: 75%;
+    justify-content:flex-end;
+    display: flex;
+    align-items: center;
+}
 
 .lists-container{
-    border-style: solid;
-    border-color: #00f;
+    width: 60%;
+    justify-content: flex-end;
     display: flex;
+    align-items: center;
 }
 
 .listNow{
-    border-style: solid;
-    border-color: #00f;
+
 }
 
 .listActive{
-    border-style: solid;
-    border-color: #00f;
+
 }
 
 .listClosed{
-    border-style: solid;
-    border-color: #00f;
+
 }
 
 
