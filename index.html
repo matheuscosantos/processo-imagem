@@ -1,109 +1,102 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>Teste - Imagem</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+    <head>
+        <title>Teste - Imagem</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
 
-<body>
+    <body>
 
-    <div class="board-header">
-        <div class="logo">
-            <a href="#" id="logo-link">
-                <img src="img/logo_Azure.png" id="logo-img" title="Azure DevOps" alt="icon Azure DevOps">
-                <div id="logo-texto">
-                    Azure <span style="font-weight:bold; color: #547EA5">DevOps</span>
-                </div>
-            </a>
-        </div>
-
-        <div class="link">
-            <a href="#">imagem-solucoes</a>/
-            <a href="#">SIDEC</a>/
-            <a href="#">Sprints</a>
-        </div>
-
-        <div class="options">
-            <input id="search" type="search" class="elementos entrada" placeholder="Search">
-            <a href="#" class="elementos"><img src="img/list_icon.png" title="List" alt="icon list"></a>
-            <a href="#" class="elementos"><img src="img/shop_icon.png" title="Shop" alt="icon shop"></a>
-            <a href="#" class="elementos"><img src="img/icon_user.png" title="User" alt="icon user"></a>
-        </div>
-    </div>
-
-
-    <div class="board-info">
-        <div class="team">
-            <div class="team-name">
-                <span>SIDEC Team<span>
+        <div class="board-header">
+            <div class="logo">
+                <a href="#" id="logo-link">
+                    <img src="img/logo_Azure.png" id="logo-img" title="Azure DevOps" alt="icon Azure DevOps">
+                    <div id="logo-texto">
+                        Azure <span style="font-weight:bold; color: #547EA5">DevOps</span>
+                    </div>
+                </a>
             </div>
-            <a href="#" class="elementos"><img src="img/icon_star.png" title="Star" alt="icon star"></a>
-            <a href="#" class="elementos"><img src="img/icon_members.png" title="List" alt="icon members"></a>
-        </div>
-        <div class="dates">  
-            <a href="#">1 de novembro - 13 de novembro 
-            <span style="font-size: 12px;"><br>2 work days remaining</span></a>
-        </div>  
-    </div>
 
+            <div class="link">
+                <a href="#">imagem-solucoes</a>/
+                <a href="#">SIDEC</a>/
+                <a href="#">Sprints</a>
+            </div>
 
-    <div class="board-controls">
-        <div class="links">
-            <a href="#"><title="linktaskboard" alt="link taskboard">Taskboard</a>
-            <a href="#"><title="linkbacklog" alt="link backlog">Backlog</a>
-            <a href="#"><title="linkcapacity" alt="link capacity">Capacity</a>
+            <div class="options">
+                <input id="search" type="search" class="elementos entrada" placeholder="Search">
+                <a href="#" class="elementos"><img src="img/list_icon.png" title="List" alt="icon list"></a>
+                <a href="#" class="elementos"><img src="img/shop_icon.png" title="Shop" alt="icon shop"></a>
+                <a href="#" class="elementos"><img src="img/icon_user.png" title="User" alt="icon user"></a>
+            </div>
         </div>
 
-        <div class="new-work">
-            <a href="#"><title="newworkitem" alt="link new work item"> + New Work Item</a>
+
+        <div class="board-info">
+            <div class="team">
+                <div class="team-name">
+                    <span>SIDEC Team<span>
+                </div>
+                <a href="#" class="elementos"><img src="img/icon_star.png" title="Star" alt="icon star"></a>
+                <a href="#" class="elementos"><img src="img/icon_members.png" title="List" alt="icon members"></a>
+            </div>
+            <div class="dates">  
+                <a href="#">November 1 - November 13
+                <span style="font-size: 12px;"><br>2 work days remaining</span></a>
+            </div>  
         </div>
+
+
+        <div class="board-controls">
+            <div class="links">
+                <a href="#"><title="linktaskboard" alt="link taskboard">Taskboard</a>
+                <a href="#"><title="linkbacklog" alt="link backlog">Backlog</a>
+                <a href="#"><title="linkcapacity" alt="link capacity">Capacity</a>
+            </div>
+
+            <div class="new-work">
+                <a href="#"><title="newworkitem" alt="link new work item"> + New Work Item</a>
+            </div>
+            
+            <div class="functions">
+                <a href="#"><img src="img/icon_options.png" title="Options" alt="icon options"></a>
+                <a href="#"><img src="img/icon_filter.png" title="Filter" alt="icon filter"></a>
+                <a href="#"><img src="img/icon_configure.png" title="Configure" alt="icon configure"></a>
+                <a href="#"><img src="img/icon_expand.png" title="Expand" alt="icon expand"></a>
+            </div>
+
+        </div>
+
+        <div class="board-status">
+                <h3 class="list-title-new">New</h3>
+                <h3 class="list-title-active">Active</h3>
+                <h3 class="list-title-closed">Closed</h3>
+        </div>
+
         
-        <div class="functions">
-            <a href="#"><img src="img/icon_options.png" title="Options" alt="icon options"></a>
-            <a href="#"><img src="img/icon_filter.png" title="Filter" alt="icon filter"></a>
-            <a href="#"><img src="img/icon_configure.png" title="Configure" alt="icon configure"></a>
-            <a href="#"><img src="img/icon_expand.png" title="Expand" alt="icon expand"></a>
-        </div>
+        <section class="lists-container">
 
-    </div>
-    <!-- End of board info bar -->
+            <div class="listNew">
+                <ul class="list-items">
+                    <li><b>1141</b> - Título <br> Nome do usuário <br> Status: New</li>
+                    <li><b>1142</b> - Título <br> Nome do usuário <br> Status: New</li>
+                    <li><b>1143</b> - Título <br> Nome do usuário <br> Status: New</li>
+                </ul>
+            </div>
 
-    <section class="lists-container">
+            <div class="listActive">
+                <ul class="list-items">
+                    <li><b>1144</b> - Título <br> Nome do usuário <br> Status: New</li>
+                </ul>
+            </div>
 
-        <div class="listNow">
+            <div class="listClosed">
+                <ul class="list-items">
+                    <li><b>1145</b> - Título <br> Nome do usuário <br> Status: New</li>
+                    <li><b>1146</b> - Título <br> Nome do usuário <br> Status: New</li>
+                </ul>
+            </div>
 
-            <h3 class="list-title">Now</h3>
-
-            <ul class="list-items">
-                <li>1141<br>Nova Atividade</li>
-                <li>1132<br>Form Validation</li>
-                <li>1622<br>Structured Data</li>
-            </ul>
-        </div>
-
-        <div class="listActive">
-
-            <h3 class="list-title">Active</h3>
-
-            <ul class="list-items">
-                <li>1142<br>Nova Atividade</li>
-                <li>1133<br>Form Validation</li>
-                <li>1624<br>Structured Data</li>
-            </ul>
-        </div>
-
-        <div class="listClosed">
-
-            <h3 class="list-title">Closed</h3>
-
-            <ul class="list-items">
-                <li>1145<br>Nova Atividade</li>
-                <li>1136<br>Form Validation</li>
-                <li>1627<br>Structured Data</li>
-            </ul>
-        </div>
-
-</body>
-
+    </body>
 </html>
