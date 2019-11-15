@@ -76,6 +76,10 @@ body{
     opacity: 1;
 }
 
+.elements{
+    vertical-align: bottom;
+}
+
 .entrada{
     width: 100px;
     height: 25px;
@@ -208,6 +212,7 @@ body{
     width: 300px;
     height: 40px;
     margin: 0px;
+    padding-left: 15px;
 }
 
 .list-title-active{
@@ -217,6 +222,7 @@ body{
     width: 300px;
     height: 40px;
     margin: 0px;
+    padding-left: 15px;
 }
 
 .list-title-closed{
@@ -226,6 +232,7 @@ body{
     width: 300px;
     height: 40px;
     margin: 0px;
+    padding-left: 15px;
 }
 
 .main{
@@ -241,7 +248,10 @@ body{
 .side-bar{
     width: 15%;
     background-color: #eaeaea;
-    height: 600px;
+    height: 587px;
+    display: flex;
+    
+    align-items: flex-end;
 }
 
 .side-bar a{
@@ -257,6 +267,8 @@ body{
     border-top: 1px solid #cfcfcf;
     border-bottom: 1px solid #cfcfcf;
     height: 35px;
+    display: flex;
+    align-items: center;
 }
 
 .side-bar .project-settings{
@@ -264,60 +276,57 @@ body{
     border-bottom: 1px solid #cfcfcf;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;   
+}
+
+.itens{
+    background-color: #cfcfcf;
+}
+
 .columns .itens{
     display: flex;  
     justify-content: flex-end;
-
 }
 
 .columns .itens ul{
-    list-style-type: none; 
+    list-style-type: none;
 }
 
 .columns .itens{
     justify-content: center;  
 }
 
-
-
 .list-items{
     padding: 0px;
 }
 
+.list-items h3{
+    font-weight: 400;
+}
+
 .listUndefined{
     width: 20%;
-    height: 600px;  
+    height: 500px;
 }
 
 .listNew{
     width: 20%;
-    height: 600px;  
-    border-left: 2px solid rgb(255, 255, 255);
+    height: 500px;
+    border-left: 2px solid rgb(255, 255, 255);    
 }
-
 
 .listActive{
     width: 20%;
-    height: 600px;
+    height: 500px;
     border-left: 2px solid rgb(255, 255, 255);
 }
 
 .listClosed{
     width: 20%;
-    height: 600px;
+    height: 500px;
     border-left: 2px solid rgb(255, 255, 255);  
-}
-
-.listActive ul{
-    width: 300px;    
-}
-
-.listClosed ul{
-    width: 300px;
-}
-
-.listNew ul{
-    width: 300px;
 }
 
 li{
@@ -326,7 +335,13 @@ li{
     border: 1px solid rgb(211, 211, 247);
     background-color: white;
     padding-left: 10px; 
+    margin: auto;
     margin-bottom: 4px;
+
+}
+
+li h3{
+    margin-left: 10px;
 }
 
 .listNew li{
