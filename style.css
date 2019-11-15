@@ -1,17 +1,16 @@
-a:link 
-{ 
-    text-decoration:none; 
-} 
-
 body{
     font-family:"Segoe UI";
     font-size:14px;
     margin:10;
 }
 
+a:link 
+{ 
+    text-decoration:none; 
+} 
+
 .board-header{
     display: flex;
-    flex-shrink: 0;  
     border-bottom: 0.1px solid rgb(169, 169, 243);  
 }
 
@@ -139,7 +138,6 @@ body{
     display: flex;
     height: 35px;
     border-bottom: 0.1px solid rgb(169, 169, 243); 
-
 }
 
 .board-controls .links{
@@ -174,8 +172,6 @@ body{
     width: 75%;
     justify-content:flex-end;
     display: flex;
-
-
 }
 
 .links > a{
@@ -200,46 +196,34 @@ body{
     display: flex;
 }
 
-.board-status h3{    
-    font-family: "Segoe UI";
-    font-size: 14px;
-    font-weight: 500;
+.list-title-null{
+    align-items: center;
+    width: 300px;
+    background-color: white;
 }
 
 .list-title-new{
-    display: flex;
-    align-items: center;
-    width: 300px;
-    height: 40px;
-    margin: 0px;
-    padding-left: 15px;
+    background-color: white;
+    width: 100%;
+    height: 30px;
 }
 
 .list-title-active{
-    width: 300px;
-    display: flex;
-    align-items: center;
-    width: 300px;
-    height: 40px;
-    margin: 0px;
-    padding-left: 15px;
+    background-color: white;
+    width: 100%;
+    height: 30px;
 }
 
 .list-title-closed{
-    width: 300px;
-    display: flex;
-    align-items: center;
-    width: 300px;
-    height: 40px;
-    margin: 0px;
-    padding-left: 15px;
+    background-color: white;
+    width: 100%;
+    height: 30px;
 }
 
 .main{
     display: flex;
     width: 100%;
 }
-
 
 .right-bar{
     display: flex;
@@ -249,8 +233,7 @@ body{
     width: 15%;
     background-color: #eaeaea;
     height: 587px;
-    display: flex;
-    
+    display: flex;    
     align-items: flex-end;
 }
 
@@ -282,51 +265,80 @@ body{
 }
 
 .itens{
-    background-color: #cfcfcf;
+    background-color: white;
 }
 
-.columns .itens{
+.columns .items{
     display: flex;  
     justify-content: flex-end;
 }
 
-.columns .itens ul{
+.columns .items ul{
     list-style-type: none;
 }
 
-.columns .itens{
-    justify-content: center;  
+.columns .items{
+    justify-content: right;  
 }
 
-.list-items{
-    padding: 0px;
-}
 
-.list-items h3{
-    font-weight: 400;
-}
+
+
 
 .listUndefined{
-    width: 20%;
+    width: 25%;
     height: 500px;
+    display: flex;
 }
 
 .listNew{
-    width: 20%;
+    width: 25%;
     height: 500px;
-    border-left: 2px solid rgb(255, 255, 255);    
+    background-color: #eaeaea;
+    border: 0.1px solid white; 
 }
 
 .listActive{
-    width: 20%;
+    width: 25%;
     height: 500px;
-    border-left: 2px solid rgb(255, 255, 255);
+    background-color: #eaeaea;
+    border: 0.1px solid white;  
 }
 
 .listClosed{
-    width: 20%;
+    width: 25%;
     height: 500px;
-    border-left: 2px solid rgb(255, 255, 255);  
+    background-color: #eaeaea;
+    border: 0.1px solid white;  
+}
+
+.list-items h3{
+    margin:0px;
+    font-weight: 400;
+}
+
+.listUndefined .list-items{
+    height: max-content;
+    padding: 0px;
+    margin-top: 0px; 
+}
+
+.listNew .list-items{
+    height: max-content;
+    padding: 0px;
+    margin-top: 0px; 
+}
+
+.listActive .list-items{
+    height: max-content;
+    padding: 0px;
+    margin-top: 0px; 
+}
+
+.listClosed .list-items{
+    height: max-content;
+    padding: 0px;
+    margin-top: 0px; 
 }
 
 li{
@@ -334,14 +346,8 @@ li{
     line-height: 30px;   
     border: 1px solid rgb(211, 211, 247);
     background-color: white;
-    padding-left: 10px; 
     margin: auto;
     margin-bottom: 4px;
-
-}
-
-li h3{
-    margin-left: 10px;
 }
 
 .listNew li{
