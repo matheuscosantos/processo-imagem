@@ -200,12 +200,11 @@ a:link
     width: 300px;
     background-color: white;
 }
-/*                                                    */
+
 .list-title-undefined{
     width: 100%;
     height: 30px;
 }
-/*                                                    */
 .list-title-new{
     background-color: white;
     width: 100%;
@@ -368,19 +367,21 @@ li{
 li:hover{
     background-color: rgb(228, 228, 250);
 }
-/* @@@@@@@@@@@@@@@@@@@@@  Modal  @@@@@@@@@@@@@@@@@@@@@*/ 
+
+
 .modal-new{
+    border: 10px solid white;
     width: 960px;
-    height: 500px;
+    height: 590px;
     top:-900px;
     font-family: "Segoe UI";
     background-color: white;
-    box-shadow: 7px 7px 5px rgba(44, 67, 68, 0.685);
+    box-shadow: 0 0 30px rgb(26, 17, 17);
     position: fixed;
 }
 
 .modal-new:target{
-    top: 10%;
+    top: 5%;
     left: 15%;
 }
 
@@ -535,8 +536,149 @@ li:hover{
     background-color: rgb(245, 250, 250);
 }
 
-/* @@@@@@@@@@@@@@@@@@@@@  Modal  @@@@@@@@@@@@@@@@@@@@@*/ 
+.status{
+    display: flex;
+}
+
+.status #state{
+    width: 20%;
+    word-spacing: 15px;
+}
+
+.status #area{
+    width: 20%;
+    word-spacing: 15px;
+    word-spacing: 5px;
+}
+
+.status #updated{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#columns{
+    display: flex;
+}
+
+.add-description{
+    width: 90%;
+    padding-bottom: 50px;
+}
+
+.superior{
+    border:0px;
+    border-left: 5px solid rgb(182, 155, 155);  
+}
+
+.inputa{
+    display: flex;
+    width: 50%;
+}
+
+.add-description #items{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.add-acceptance{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.add-discussion{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-description textarea{
+    height: 30px;  
+    border: 0.1px solid rgb(250, 236, 236);  
+    font-family: "Segoe UI";
+    resize: none;
+} 
+
+.add-discussion textarea{
+    height: 50px;  
+    border: 0.1px solid rgb(250, 236, 236);  
+    font-family: "Segoe UI";
+    resize: none;
+}
+
+.inputb{
+    display: flex;
+    width: 25%;
+}
 
 
+.add-planning #items{
+    display: flex;
+    flex-direction: column;
+}
 
-/* @@@@@@@@@@@@@@@@@@@@@  Modal  @@@@@@@@@@@@@@@@@@@@@*/ 
+.add-planning textarea{
+    height: 30px;
+    border: 0.1px solid rgb(250, 236, 236);  
+    font-family: "Segoe UI";
+    resize: none;
+} 
+
+.add-classification{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-development{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputc{
+    display: flex;
+    width: 25%;
+}
+
+#columns h3{
+    margin: 0px;
+    color: black;
+    border-bottom: 3px solid rgb(250, 236, 236);
+}
+
+#add-effort > h3{
+    font-family: "Segoe UI";
+    font-weight: 300;
+    border-bottom: 0px solid rgb(250, 236, 236);
+}
+
+#add-remaining > h3{
+    font-family: "Segoe UI";
+    font-weight: 300;
+    border-bottom: 0px solid rgb(250, 236, 236);
+}
+
+#add-done > h3{
+    font-family: "Segoe UI";
+    font-weight: 300;
+    border-bottom: 0px solid rgb(250, 236, 236);
+}
+
+#add-priority > h3{
+    font-family: "Segoe UI";
+    font-weight: 300;
+    border-bottom: 0px solid rgb(250, 236, 236);
+}
+
+#add-risk > h3{
+    font-family: "Segoe UI";
+    font-weight: 300;
+    border-bottom: 0px solid rgb(250, 236, 236);
+}
+
+.inputa #items h3{
+    border-bottom: 3px solid rgb(250, 236, 236);
+    margin-bottom: 10px;  
+}
